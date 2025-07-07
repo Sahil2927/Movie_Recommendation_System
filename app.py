@@ -6,7 +6,7 @@ import os
 
 # Download similarity.pkl from Google Drive if not present
 if not os.path.exists("similarity.pkl"):
-    url = "https://drive.google.com/uc?id=https://drive.google.com/file/d/1m2HmzO4oW6sL6J5uOJ7_LJW8eRXTdQwn/view?usp=drive_link"
+    url = "https://drive.google.com/uc?id=1m2HmzO4oW6sL6J5uOJ7_LJW8eRXTdQwn"
     gdown.download(url, "similarity.pkl", quiet=False)
 
 def recommend(movie):
